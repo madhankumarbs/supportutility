@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Support Utility" verbose="1">
+    <!-- This parameter will be passed to every test in this suite -->
+    <parameter name="path" value="Path To you excel file" />
+<!--     <parameter name="fileName" value="ExcelData.csv" /> -->
+    <test name="Support Utility">
+        <classes>
+            <class name="com.ihg.apiautomation.prodsupportutil.ExtractAPIPayload">
+                <methods>
+                    <include name="getapirespdata"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+</suite>
