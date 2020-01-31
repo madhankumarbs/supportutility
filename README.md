@@ -1,5 +1,7 @@
 # Extract Payload Utility:
-This Utility is to extract the JSON Messages from a heavy data set file.
+This Utility does the Following:
+Uses RestAssured to call an api to get the response based on a data set in excel file
+Gets and stores the response in the same excel file
 
 # Dependencies
  - Maven - Project Management Framework
